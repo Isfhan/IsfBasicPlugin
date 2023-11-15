@@ -1,0 +1,18 @@
+{
+  "name": "isf/basic-plugin",
+  "description": "This is basic plugin",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Isf\\BasicPlugin\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "Isf\\BasicPlugin\\IsfBasicPlugin",
+    "label": {
+      "de-DE": "Isf Basic Plugin",
+      "en-GB": "Isf Basic Plugin"
+    }
+  }
+}
